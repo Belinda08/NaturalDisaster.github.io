@@ -103,6 +103,9 @@
     border: 3px solid white;
     padding: 7px;
 }
+#last{
+    padding-bottom: 10px;
+}
 #Examples:hover + #hide{
     display:contents;
 }
