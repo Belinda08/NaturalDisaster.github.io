@@ -2,6 +2,11 @@
     background-color: rgb(21, 61, 31);
     overflow: hidden;
     display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    top:0;
     border-bottom: white;
     border-width: 2px;
     border-style: solid;
@@ -45,6 +50,9 @@
 .Report{
     background-color: rgb(252, 209, 109);
 }
+.in{
+    display:inline-block;
+}
 .intro{
     margin: 10px;
 }
@@ -70,11 +78,6 @@
     background-color:#BFC4C9;
     color:#757373;
 }
-.Natural{
-    padding-top: 105px;
-    text-align: left;
-}
-
 #start{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://www.ncei.noaa.gov/sites/default/files/2018-08/billion-dollar-disasters-collage_1200x630.png");
     color:rgb(32, 25, 54);
